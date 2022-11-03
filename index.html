@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="btn_start">
+        <button class="btn btn-warning btn-lg">Start Quiz</button>
+    </div>
+
+    <div class="card quiz_box">
+        <header class="card-header">
+            <div class="title">Quiz App</div>
+            <div class="timer">
+                <div class="time_text">Kalan Süre: </div>
+                <div class="time_second"></div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+
+        <section class="card-body">
+            <div class="question_text">
+                <!-- <span>1-Hangisi js paket yönetim uygulasıdır?</span> -->
+            </div>
+
+            <div class="option_list">
+                <!-- <div class="option correct">
+                    <span>a: Npm</span>
+                    <div class="icon"><i class="fas fa-check"></i></div>
+                </div>
+
+                <div class="option">
+                    <span>b: Typescript</span>
+                    <div class="icon"><i class="fas fa-times"></i></div>
+                </div>
+
+                <div class="option ">
+                    <span> c: Angular</span>
+                    <div class="icon"><i class="fas fa-times"></i></div>
+                </div>
+
+                <div class="option incorrect">
+                    <span> d: PHP</span>
+                    <div class="icon"><i class="fas fa-times"></i></div>
+                </div> -->
+            </div>
+        </section>
+        <footer class="card-footer">
+
+            <div class="question_index">
+                
+            </div>
+            <button class="next_btn btn btn-primary btn-sml">Sonraki Soru</button>
+        </footer>
+    </div>
+
+    <div class="card score_box">
+        <div class="icon"><i class="fas fa-crown"></i></div>
+        <div class="score_text"></div>
+        <div class="button">
+            <button class="btn btn-primary btn_replay">Tekrar Başlat!</button>
+            <button class="btn btn-primary btn_quit">Testi Bitir!</button>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="ui.js"></script>
+<script src="soru.js"></script>
+<script src="quiz.js"></script>
+<script src="script.js"></script>
+</html>
