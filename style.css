@@ -172,3 +172,18 @@ body{
 }
 
 
+article {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #faf3e0;
+    font-weight: 400;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
+  
+  article a {
+    color: #03a062;
+  }
+
